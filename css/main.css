@@ -1,0 +1,140 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+  background: 
+    url('../img/bg4.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  padding:0px;
+  color: white;
+}
+
+form {
+  margin: 5%; 
+}
+
+fieldset {
+  margin-bottom: 5%;
+}
+
+td {
+  padding: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+/*   width: 50%; */
+}
+
+select {
+  width: 80%;
+  color: black;
+}
+
+footer, hr {
+  text-align: center;
+  clear: both;
+}
+
+legend {
+  color: white;
+}
+
+textarea {
+  color:black !important;
+  background-color: transparent !important;
+}
+
+#map {
+  float:left;
+  width: 50%;
+  display: block;
+}
+
+#map-img {
+  width: 90%;
+  padding:5%;
+  margin-top: 5%;
+}
+
+#signup {
+  float:right;
+  width: 50%;
+}
+
+.jumbotron {
+  float: right;
+  background-color: transparent;
+}
+
+.desc {
+  width: 50%;
+  text-align: right;
+  padding-right: 5%;
+}
+
+.black-text {
+  color: black;
+}
+
+#venue-table {
+/*   margin-top:3%; */
+  position: relative;
+  display: block;
+  width:100%;
+/*   padding: auto; */
+  clear:both;
+}
+
+#venue-table-user {
+/*   margin-top:3%; */
+  position: relative;
+  display: block;
+  width:50%;
+/*   padding: auto; */
+  clear:left;
+  float: left;
+}
+
+#reserve {
+  position:relative;
+  display: block;
+  width: 50%;
+/*   padding: auto; */
+  margin-top: 0%;
+  padding-top: 0%;
+  float: right;
+  clear:right;
+}
+
+.main {
+  margin-top: 5%;
+}
+
+.time {
+  width:auto !important;
+  color: black;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.table-row {
+  width: 16.7%;
+  text-align: center;
+}
+
+#approval {
+  margin-top:5%;
+  position: relative;
+  display: block;
+  clear:both;
+  width: 100%;
+}
